@@ -36,8 +36,8 @@ div {
   display: grid;
   width: 280px;
   height: 280px;
-  --bwidth: calc(width / 4);
-  --bheight: calc(height / 5);
+  --bwidth: calc(280px / 4);
+  --bheight: calc(280px / 5);
   grid-template-columns: var(--bwidth) var(--bwidth) var(--bwidth) var(--bwidth);
   grid-template-rows: var(--bheight) var(--bheight) var(--bheight) var(--bheight) var(--bheight);
 }
